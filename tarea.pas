@@ -34,6 +34,7 @@ begin
                     '1','2','3','4','5','6','7','8','9': num:=ord(ch)-ord('0');
                         'A','B','C','D','E','F': num:=ord(ch)-ord('A')+10
                 end;
+                
                 begin
                     resultfinal:=0;
                     resultfinal:= resultfinal*base+num
